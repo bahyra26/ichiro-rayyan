@@ -23,4 +23,4 @@ All 15 simulation clips are wired in `src/data/regionVideos.ts` from `public/vid
 
 ### Detailed Report PDF
 
-Place the final PDF at `public/reports/booster-k1-detailed-report.pdf` and set `REPORT_CONFIG.pdfPath = 'reports/booster-k1-detailed-report.pdf'` in `src/data/evaluationMetrics.ts`.
+Wired to `public/reports/Rayyan Ahmad-Technical Report.pdf` via `REPORT_CONFIG.pdfPath` in `src/data/evaluationMetrics.ts`.

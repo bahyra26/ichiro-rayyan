@@ -33,10 +33,10 @@ export function DetailedReport() {
           </div>
 
           <div className="flex flex-wrap items-center gap-3.5">
-            {hasPdf ? (
+            {hasPdf && REPORT_CONFIG.pdfPath ? (
               <a
-                href={REPORT_CONFIG.pdfPath}
-                download
+                href={encodeURI(REPORT_CONFIG.pdfPath)}
+                download={REPORT_CONFIG.downloadFilename}
                 className="neubrutal-btn inline-flex items-center gap-2 rounded-lg bg-[#0999D2] px-4 py-2.5 text-sm font-semibold text-[#F4F2F6] transition-colors hover:bg-[#17ADE4]"
               >
                 <Download className="h-4 w-4" aria-hidden="true" />

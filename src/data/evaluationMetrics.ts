@@ -95,7 +95,7 @@ export const REGION_SAVE_DATA: RegionSaveDatum[] = RAW_REGIONS.map((row) => ({
 }));
 
 export const REPORT_CONFIG = {
-  /** Set to 'reports/booster-k1-detailed-report.pdf' only once a real PDF exists in public/reports/. */
-  pdfPath: undefined as string | undefined,
-  expectedPath: 'public/reports/booster-k1-detailed-report.pdf',
+  pdfPath: 'reports/Rayyan Ahmad-Technical Report.pdf' as string | undefined,
+  downloadFilename: 'Rayyan Ahmad-Technical Report.pdf',
+  expectedPath: 'public/reports/Rayyan Ahmad-Technical Report.pdf',
 };
